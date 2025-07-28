@@ -50,8 +50,8 @@ class _StoreExampleState extends State<StoreExample> {
     ];
 
     _products = await _storeService.getProducts(productIds);
-    _products.forEach((e) {});
-    _storeService.purchaseProduct(_products[0]);
+    //_products.forEach((e) {});
+    //_storeService.purchaseProduct(_products[0]);
     setState(() {});
   }
 
